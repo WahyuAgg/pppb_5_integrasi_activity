@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Page"
+            android:layout_marginBottom="80dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+        <EditText
+            android:id="@+id/input_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="masukkan email"
+            />
+        <EditText
+            android:id="@+id/input_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="masukkan password"
+            />
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+
+            android:text="Login"
+            />
+        <Button
+            android:id="@+id/btn_to_third_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Page"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
